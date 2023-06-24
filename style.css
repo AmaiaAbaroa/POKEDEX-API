@@ -2,12 +2,12 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
-  background: #efefbb;
-  background: linear-gradient(to right, #d4d3dd, #efefbb);
-  font-family: "Lato", sans-serif;
+  background: #dec9a0;
+  background: linear-gradient(to right, #e1c181,#d7a43e, #de9607);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +17,9 @@ body {
 
 h1 {
   letter-spacing: 3px;
+  color: #fff;
+  font-weight: bolder;
+  font-size:3rem;
 }
 
 .poke-container {
@@ -64,4 +67,17 @@ h1 {
 .pokemon .info .name {
   margin: 15px 0 7px;
   letter-spacing: 1px;
+}
+
+.button {
+    width: 150px;
+    margin: 3rem 0.5rem 3rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 30px rgba(153, 151, 151, 0.5);
+    color: #de9607;
+    font-weight: bold;
+    font-size: larger;
+    background: linear-gradient(to right, #fff, #eeeade);   
+    border-color: #5e5c5c; 
 }
