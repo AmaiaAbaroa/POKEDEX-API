@@ -1,7 +1,7 @@
 const poke_container = document.getElementById('poke-container');
 const buttons = document.getElementById('buttons')
 // const pokemon_count = 150;
-// const apiURL = "https://pokeapi.co/api/v2/pokemon";
+// git
 
 const colors = {
     fire: '#FDDFDF',
